@@ -23,7 +23,7 @@ for (var i = 0; i < data.length; i++) {
       '<div class="chart-label">' + data[i].disability_type + '</div>' +
       '<div class="Value-Pair">'+
       '<div class="Value" style="width:' + (data[i].disability_value * 62.5) / largest + '%"></div>' +
-      '<div class="ValueNumber">' + data[i].disability_value + '%%</div>' +
+      '<div class="ValueNumber">' + data[i].disability_value + '%</div>' +
       '</div>'+
       '</div>'+
       '</div>'
