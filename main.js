@@ -53,13 +53,13 @@ var greeting;
 var timeOfDayMessage;
 
 if (specificHourOfTheDay < 12) {
-  greeting = "Goo Morning!";
+  greeting = "Good Morning!";
 } else if (specificHourOfTheDay > 17) {
   greeting = "Good Evening!";
 } else {
   greeting = "Hello!";
 }
 
-timeOfDayMessage = "<p>" + greeting + " It iss " + timeRightNow + "</p>";
+timeOfDayMessage = "<p>" + greeting + " It is " + timeRightNow + "</p>";
 
 timeHolder.innerHTML = timeHolder.innerHTML + timeOfDayMessage;
