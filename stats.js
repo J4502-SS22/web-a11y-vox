@@ -18,12 +18,12 @@ for (var i = 0; i < data.length; i++) {
 var largest = Math.max.apply(Math, arrayValues);
 
 for (var i = 0; i < data.length; i++) {
-  chartDiv.innerHTML += '<div class="row-wrapper" aria-label="' + data[i].disability_value + ' percent of people have a disability dealing with '+ data[i].disability_type +'">' +
+  chartDiv.innerHTML += '<div class="row-wrapper" aria-label="' + data[i].disability_value + ' percent of people have a disability related to '+ data[i].disability_type +'">' +
       '<div class="row" id="r' + i + '" aria-hidden="true">' +
       '<div class="chart-label">' + data[i].disability_type + '</div>' +
       '<div class="Value-Pair">'+
       '<div class="Value" style="width:' + (data[i].disability_value * 62.5) / largest + '%"></div>' +
-      '<div class="ValueNumber">' + data[i].disability_value + '%%</div>' +
+      '<div class="ValueNumber">' + data[i].disability_value + '%</div>' +
       '</div>'+
       '</div>'+
       '</div>'
